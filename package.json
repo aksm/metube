@@ -28,6 +28,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+    "babel-core": "^6.23.1",
     "babel-preset-stage-1": "^6.1.18",
     "dotenv-webpack": "^1.4.1",
     "express": "^4.14.1",
