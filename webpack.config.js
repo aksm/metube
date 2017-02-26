@@ -2,7 +2,7 @@ const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: [
-    'src/index.js'
+    './src/index.js'
   ],
   output: {
     path: __dirname,
