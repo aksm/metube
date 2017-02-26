@@ -19,7 +19,8 @@ module.exports = {
     }]
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js', '.jsx'],
+    modulesDirectories: ['src']
   },
   node: {
     fs: 'empty'
