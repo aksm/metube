@@ -1,4 +1,4 @@
-// const Dotenv = require('dotenv-webpack');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: [
@@ -28,9 +28,9 @@ module.exports = {
     historyApiFallback: true,
     contentBase: './'
   },
-  // plugins: [
-  //   new Dotenv({
-  //     safe: false
-  //   })
-  // ]
+  plugins: [
+    new Dotenv({
+      safe: false
+    })
+  ]
 };
