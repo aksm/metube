@@ -28,9 +28,9 @@ module.exports = {
     historyApiFallback: true,
     contentBase: './'
   },
-  plugins: [
-    new Dotenv({
-      safe: false
-    })
-  ]
+  // plugins: [
+  //   new Dotenv({
+  //     safe: false
+  //   })
+  // ]
 };
